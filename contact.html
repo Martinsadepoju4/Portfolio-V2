@@ -155,6 +155,7 @@
                               type="text"
                               placeholder="Name"
                               id="name"
+                              required
                             />
                           </div>
                           <!-- email -->
@@ -162,9 +163,12 @@
                             <input
                               class="inp"
                               name="email"
+                              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                              title="Enter a valid email address"
                               type="text"
                               placeholder="Email"
                               id="email"
+                              required
                             />
                           </div>
                           <!-- company -->
@@ -185,6 +189,7 @@
                               id="comments"
                               rows="3"
                               placeholder="Tell me about your project"
+                              required
                             ></textarea>
                           </div>
                           <!-- button -->
@@ -200,9 +205,6 @@
                     </div>
                   </div>
                 </section>
-                <div class="contact-form-confirmation">
-                  <p>Message submitted, you will get a response ASAP!</p>
-                </div>
               </div>
               <!-- page wrapper end -->
             </div>
