@@ -2530,3 +2530,13 @@ form .site-btn {
     line-height: 2.5rem;
   }
 }
+
+.louis-link {
+  color: #e6ff00 !important;
+}
+.louis-link:hover {
+  color: white !important;
+}
+.project6-detail-p {
+  margin-bottom: 50px !important;
+}
